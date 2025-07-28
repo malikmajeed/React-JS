@@ -1,7 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-
-import Main from "./PropsDrilling/index.jsx";
+import Main from './propsDrilling/'
 
 function App() {
   return (
