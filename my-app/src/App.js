@@ -1,12 +1,17 @@
-// import logo from './logo.svg';
+// import logo from './logo.svg'; 
 import './App.css';
-import Main from './propsDrilling/'
+import PropsDrillingComponent from "./props_drilling";
+import ContextApiComponent from "./context_api";
 
 function App() {
   return (
- 
-      <Main />
-   
+    <>
+      <h1>Props Drilling Component</h1>
+      <PropsDrillingComponent />
+
+      <h1>Props Drilling Component</h1>
+      <ContextApiComponent />
+    </>
   );
 }
 

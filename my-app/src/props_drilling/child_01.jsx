@@ -1,5 +1,5 @@
 import React from 'react'
-import Dashboard from './dashboard'
+import Dashboard from './child_02'
 
 const HomePage = ({isLoggedIn, handleLogIn, handleLogOut}) => {
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import LastChild from './lastChild'
+import LastChild from './child_03'
 
 const Dashboard = ({isLoggedIn, handleLogIn, handleLogOut}) => {
 
