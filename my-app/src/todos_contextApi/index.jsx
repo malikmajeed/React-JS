@@ -26,7 +26,7 @@ const removeTodo = (id) => {
     return (
       <TodosContext.Provider value={{ todos, addTodo,removeTodo }}>
         <div className="main">
-          <h1>Todo List</h1>
+          <h1 className='bg-blue-300'>Todo List</h1>
           <AddTodo />
           <ShowTodo />
         </div>
