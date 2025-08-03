@@ -2,3 +2,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    justify-content: center;
+    align-items: center;
+    button{
+        border: 1px solid black;
+        margin: 1rem;
+        padding: 0.3rem;
+        cursor: pointer;
+    }
+    h1{
+        font-weight: 600;
+        font-size: 2rem;
+    }
+
+}
